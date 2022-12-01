@@ -5,12 +5,16 @@ import "./ExpenseItem.css";
 // import "./Expenses";
 
 const ExpenseItem = (props) => {
-  useState(); // always inside the component functions
-  let title = props.title;
+  // useState(props.title); // always inside the component functions
+  // useState always return an array with first element as variable (value) itself, and second element of an array is that updeting function
+
+  //useState rigisters sime State, same value as a State for the component in which it is being called
+  const [title, setTitle] = useState(props.title);
+  console.log("ExpenseItem evaluated by React"); // we will see it 4 times by the number of components
 
   const clickHandler = () => {
     // console.log("CLICKED!!!");
-    title = "Updated!";
+    setTitle("Updated!"); // this is state updeting function which allows use component function again!
     console.log(title);
   };
 
