@@ -94,4 +94,3 @@ const ExpenseForm = (props) => {
     </form>
   );
 };
-export default ExpenseForm;
