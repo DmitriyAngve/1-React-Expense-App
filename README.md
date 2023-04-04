@@ -1,4 +1,4 @@
-# 25-MyJSON-Server-Setup
+# 1 - React-Expense-App
 
 In this React app I learned about JSX, about what components are, how build my own components and how I can use them, how I can work with them. In additional I learned how work with data in React apps. Basically, I learned all important key concepts, which I need over again in any React app in future.
 
