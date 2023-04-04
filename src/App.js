@@ -1,3 +1,5 @@
+// github???
+
 // import ExpenseItem from "./components/ExpenseItem";
 import React, { useState } from "react";
 import NewExpense from "./components/NewExpense/NewExpense";
@@ -6,7 +8,7 @@ import Expenses from "./components/Expenses/Expenses";
 const DUMMY_EXPENSES = [
   {
     id: "e1",
-    title: "Toilet Paper",
+    title: "New book!",
     amount: 94.12,
     date: new Date(2020, 7, 14),
   },
