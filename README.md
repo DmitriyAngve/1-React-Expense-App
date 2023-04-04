@@ -4,8 +4,8 @@ In this React app I learned about JSX, about what components are, how build my o
 
 <h3 align="center">About App:<h3>
  
-<div>- It's an expense tracker. You can see your expenses by year using the filter. Depending on the filter, the user interface is automatically updated with animation.
-- You can add new expenses by adding what you see as the chart is updated.</div>
+<div>- It's an expense tracker. You can see your expenses by year using the filter. Depending on the filter, the user interface is automatically updated with animation.</div>
+<div>- You can add new expenses by adding what you see as the chart is updated.</div>
 
 
 
